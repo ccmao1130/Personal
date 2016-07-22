@@ -1,0 +1,85 @@
+html {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #0965FF;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #085BE5;
+    font-family: Calibri;
+    font-size: 22px;
+}
+
+.lesson1 {
+    background-color: #36A4FA;
+	border-radius: 15px;
+	color: white;
+	padding: 10px;
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.concept {
+    padding-right: 5px;
+    background-color: #aedafd;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: dotted;
+}
+
+p {
+    color: #36A4FA;
+    font-family: Calibri;
+    font-size: 16px;
+    text-indent: 30px;
+    margin-left: 10px;
+}
+
+.lesson2 {
+    background-color: #0AE8C7;
+	border-radius: 15px;
+	color: white;
+	padding: 10px;
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.concept2 {
+    padding-right: 5px;
+    background-color: #BEF9F1;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-style: dotted;
+}
+
+.field {
+	color: #07A88F;
+}
+
+h3 {
+    font-size: 19px;
+    font-family: Calibri;
+    color: #08BA9F;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.p2 {
+    color: #09C7AA;
+    font-family: Calibri;
+    font-size: 16px;
+    text-indent: 30px;
+    margin-left: 10px;
+}
