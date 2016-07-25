@@ -1,10 +1,78 @@
 html {
-    margin-left: 10px;
-    margin-top: 10px;
+    /*margin-left: 10px;
+    margin-top: 10px;*/
+	margin-left: -8px;
+	margin-top: 10px;
+	font-family: Calibri;
+}
+
+a:link {
+	color: #2572af;
+}
+
+a:visited {
+	color: #052fa0;
+}
+
+a:hover {
+	color: #e17e30;
+}
+/* order matters */
+
+ul {
+    list-style-type: none;
+    margin-top: -18px;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+	font-size: 17px;
+	font-family: Times New Roman;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a.home{
+	color: red;
+	font-size: 18px;
+}
+
+li a.home:hover:not(.active) {
+	background-color: red;
+	color: white;
+}
+
+li a.weeks {
+	color: #1067f7;
+}
+
+li a.weeks:hover:not(.active) {
+    background-color: #1067f7;
+    color: white;
+}
+
+li a.fieldhead {
+	color: #08BA9F;
+}
+
+li a.fieldhead:hover:not(.active) {
+	background-color: #08BA9F;
+	font-size: 16px;
 }
 
 body {
     background-color: white;
+}
+
+.everything {
+	margin-left: 160px;
 }
 
 h1 {
@@ -16,11 +84,17 @@ h1 {
 
 h2 {
     color: #085BE5;
-    font-family: Calibri;
     font-size: 22px;
 }
 
-.lesson1 {
+p {
+    color: #3093e1;
+    font-size: 16px;
+    text-indent: 30px;
+    margin-left: 10px;
+}
+
+.week {
     background-color: #36A4FA;
 	border-radius: 15px;
 	color: white;
@@ -29,7 +103,7 @@ h2 {
 	margin-right: 5px;
 }
 
-.concept {
+.content1 {
     padding-right: 5px;
     background-color: #aedafd;
     border-radius: 10px;
@@ -38,15 +112,7 @@ h2 {
     border-style: dotted;
 }
 
-p {
-    color: #36A4FA;
-    font-family: Calibri;
-    font-size: 16px;
-    text-indent: 30px;
-    margin-left: 10px;
-}
-
-.lesson2 {
+.other {
     background-color: #0AE8C7;
 	border-radius: 15px;
 	color: white;
@@ -55,7 +121,7 @@ p {
 	margin-right: 5px;
 }
 
-.concept2 {
+.content2 {
     padding-right: 5px;
     background-color: #BEF9F1;
     border-radius: 10px;
@@ -65,12 +131,11 @@ p {
 }
 
 .field {
-	color: #07A88F;
+	color: #07947E;
 }
 
 h3 {
     font-size: 19px;
-    font-family: Calibri;
     color: #08BA9F;
     font-weight: bold;
     margin-left: 10px;
@@ -78,8 +143,4 @@ h3 {
 
 .p2 {
     color: #09C7AA;
-    font-family: Calibri;
-    font-size: 16px;
-    text-indent: 30px;
-    margin-left: 10px;
 }
